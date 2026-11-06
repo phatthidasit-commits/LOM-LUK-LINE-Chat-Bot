@@ -1,0 +1,11 @@
+Flask
+
+APScheduler
+
+python-dotenv
+
+google-genai
+
+line-bot-sdk
+
+gunicorn
