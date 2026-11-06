@@ -1,5 +1,7 @@
-"""ตุ๊กตาล้มลุก - LINE + Gemini + weekly mood tracker.
+"""ตุ๊กตาล้มลุก - LINE + Gemini + weekly mood tracker. 
 Run: python app.py (local) or gunicorn --workers 1 --threads 4 app:app (host).
+โค้ดส่วนตรงนี้ ใช้ GPT ช่วยเขียนนะคะ ดิฉันทำหน้าที่ออกเเบบระบบเเละDeployed ดิฉันเรียนรู้เเละอ่านโค้ดไปด้วยค่ะ
+หมายเหตุเพิ่มเติม:เนื่องจากใช้โมเดลฟรี (gemini-3.5-flash-lite) จึงมีข้อจำกัดของโทเค็น, Deployed โดย render ฟรี มีข้อจำกัดเรื่องความทรงจำ เเละหากไม่ส่งข้อความเป็นเวลา15นาที ระบบจะไม่อ่านต้องรอเเละส่งใหม่ในอีก1นาที
 """
 import logging
 import os
